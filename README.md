@@ -9,3 +9,7 @@ Every time google chrome visit a website that match the pattern, the extension w
 
 URL pattern do not support regex. It just check if the URL start with the pattern.
 
+# Know Issue
+
+When using that extension with an external monitor, Due to a known bug of Chrome Extensions (https://bugs.chromium.org/p/chromium/issues/detail?id=971701) it's possible the activation checkbox dont visualy update its state after click (The popup is not repainted). To force that, just make click in the first textbox. Yes, its anoying.
+
