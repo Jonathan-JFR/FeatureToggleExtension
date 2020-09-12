@@ -26,7 +26,7 @@ button {
     width: 100px;
 }
 
-.addUrlBtn {
+.addUrlBtn, .rmUrlBtn{
     width: 20px;
     padding: 5px;
     float: right;
@@ -38,6 +38,9 @@ button {
     content: "+";
 }
 
+.rmUrlBtn:after{
+    content: "-";
+}
 button:hover {
     background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
     background-color:#5cb811;
