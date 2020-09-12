@@ -1,4 +1,4 @@
-var furl = "";
+var furl = [];
 var ftname="";
 var isActive=false;
 
@@ -64,11 +64,11 @@ function listener(details)
         return;
     }
 
-    if(!details.url.includes(furl)){
-        const msg = "URL do not match";
+    if(furl.every((url) => !details.url.includes(url))){
+        const msg = "None of the urls match";
         console.log("----------" + msg + "----------");
         return;
-    }    
+    } 
         
     if(details.url.endsWith(ftname) || details.url.includes(ftname + '&')){
         const msg = "FT already present";
@@ -82,7 +82,6 @@ function listener(details)
         (details.url.indexOf("?") == -1 
             ? "?" + ftname 
             : "&" + ftname)
-
 
     console.log("url--> " + url);''             
     changeIcon("On", details.tabId);
