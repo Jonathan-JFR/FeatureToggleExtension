@@ -26,6 +26,18 @@ button {
     width: 100px;
 }
 
+.addUrlBtn {
+    width: 20px;
+    padding: 5px;
+    float: right;
+    margin-top:0.6em;
+    content: "+";
+}
+
+.addUrlBtn:after {
+    content: "+";
+}
+
 button:hover {
     background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
     background-color:#5cb811;
@@ -48,6 +60,7 @@ button:active {
     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
     text-shadow: 0px 0px 0px rgba(66,66,66,.75);
     margin-top:0.5em;
+    margin-bottom: 1.5em;
 }
 
 .css-input:focus {
@@ -104,7 +117,7 @@ input[type="checkbox"]:focus {
     vertical-align: middle;
     display: table-cell;
 }
-.mydiv{
+.toggleWrapper{
     width:100%;
     height:auto;
     display:table;

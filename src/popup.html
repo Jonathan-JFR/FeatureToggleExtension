@@ -7,14 +7,20 @@
     <img class="logo"/>    
     <hr />
     <form>
+
         <label for="furl">Url Pattern</label>
-        <input type="text" class="css-input" id="furl" name="furl"><br><br>
-        <label for="ftname">Feature Toggle</label>
-        <input type="text" class="css-input" id="ftname" name="ftname"><br><br>
-      <div class="mydiv">
+        <input type="text" class="css-input" id="furl" name="furl">
+        <button id="btn0" class="addUrlBtn"></button>
+        
+
+      <label for="ftname">Feature Toggle</label>
+      <input type="text" class="css-input" id="ftname" name="ftname"><br><br>
+      
+      <div class="toggleWrapper">
         <label for="isActive" class="lblActivate">Activate</label>
         <input type="checkbox" class="toggle" id="isActive" name="IsActive" value="true">
       </div>
+
     </form>
     <hr />
     <button id="saveBtn" onclick="saveUrl">Save</button>
