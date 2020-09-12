@@ -8,7 +8,9 @@
     "prerelease": "echo ZIP file will be saved in .dist folder",
     "release": "mkdir -p dist && bestzip ./dist/FeatureToggle-`cat src/manifest.json | grep '\"version\":' | cut -d'\"' -f4`.zip src/*",
     "version": "cat src/manifest.json | grep '\"version\":' | cut -d'\"' -f4",
-    "start": "./node_modules/live-server/live-server.js --entry-file=./src/popup.html --open=./src"
+    "start": "./node_modules/live-server/live-server.js --entry-file=./src/popup.html --open=./src",
+    "lint": "./node_modules/.bin/eslint ./src ; exit 0",
+    "lint-fix": "./node_modules/.bin/eslint ./src --fix ; exit 0"
   },
   "repository": {
     "type": "git",
@@ -27,6 +29,12 @@
   "homepage": "https://github.com/Jonathan-JFR/FeatureToggleExtension#readme",
   "devDependencies": {
     "bestzip": "^2.1.7",
+    "eslint": "^7.9.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "live-server": "^1.2.1"
   }
 }
