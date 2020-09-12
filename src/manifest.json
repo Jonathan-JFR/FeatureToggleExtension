@@ -1,6 +1,6 @@
 {
     "name": "Feature Toggle Extension",
-    "version": "1.0",
+    "version": "1.1",
     "icons": {
       "128": "images/extIcon128.png"
     },
