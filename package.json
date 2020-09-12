@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prerelease": "echo ZIP file will be saved in .dist folder",
     "release": "mkdir -p dist && bestzip ./dist/FeatureToggle-`cat src/manifest.json | grep '\"version\":' | cut -d'\"' -f4`.zip src/*",
-    "version": "cat src/manifest.json | grep '\"version\":' | cut -d'\"' -f4"
+    "version": "cat src/manifest.json | grep '\"version\":' | cut -d'\"' -f4",
+    "start": "./node_modules/live-server/live-server.js --entry-file=./src/popup.html --open=./src"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/Jonathan-JFR/FeatureToggleExtension#readme",
   "devDependencies": {
-    "bestzip": "^2.1.7"
+    "bestzip": "^2.1.7",
+    "live-server": "^1.2.1"
   }
 }
