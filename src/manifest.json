@@ -1,9 +1,12 @@
 {
     "name": "Feature Toggle Extension",
+    "short_name": "FTE",
     "version": "1.1",
     "icons": {
       "128": "images/extIcon128.png"
     },
+    "author":"Jonathan Fernández",
+    "homepage_url": "https://github.com/Jonathan-JFR/FeatureToggleExtension",
     "description": "Helps you working with feature toggles",
     "permissions": ["webRequestBlocking",
                     "webRequest",
