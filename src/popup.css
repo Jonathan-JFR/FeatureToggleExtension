@@ -2,9 +2,14 @@ form {
     margin: 20px;
 }
 
+body{
+    width: 350px;
+}
 .logo {
     content: url('/images/Ft.png');
     width: 250px;
+    margin: auto;
+    display: block;
 }
 
 button {
@@ -65,6 +70,7 @@ button:active {
     text-shadow: 0px 0px 0px rgba(66,66,66,.75);
     margin-top:0.5em;
     margin-bottom: 1.5em;
+    width: 85%;
 }
 
 .css-input:focus {
