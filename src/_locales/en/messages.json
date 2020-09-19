@@ -14,5 +14,41 @@
     "FeatureToggle": {
         "message": "Feature Toggle",
         "description": "Feature Toggle"
-      }
+      },
+    "OptFeatureToggle":{
+      "message": "Feature Toggle Chrome Extension",
+      "description": "Options Title"
+    },
+    "OptIcons":{
+      "message": "Icons designed by",
+      "description": "Icons designed by"
+    },
+    "OptIconsFrom":{
+      "message": "from",
+      "description": "from"
+    },
+    "OptFtExplanation":{
+      "message": "For a good explanation about how and why use feature toggles please visit",
+      "description": "For a good explanation about how and why use feature toggles please visit"
+    },
+    "OptFtExplanation2":{
+      "message": "This article",
+      "description": "This article"
+    },
+    "OptFtExplanation3":{
+      "message": "from Pete Hodgson in Martin Fowler's website",
+      "description": "from Pete Hodgson in Martin Fowler's website."
+    },
+    "Optsrc":{
+      "message": "The source code of the extension is open and hosted in",
+      "description": "The source code of the extension is open and hosted in"
+    },
+    "Optsrc2":{
+      "message": "Please feel free to ask for new features, submit pull requests or even better, give me feedback.",
+      "description": "Please feel free to ask for new features, submit pull requests or even better, give me feedback."
+    },
+    "OptTwitter":{
+      "message": "I have a not so interesting twitter account, just in case you need to contact me: ",
+      "description": "I have a not so interesting twitter account, just in case you need to contact me: "
+    }
 }

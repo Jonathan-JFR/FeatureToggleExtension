@@ -7,12 +7,48 @@
         "message": "Guardar",
         "description": "Botón de guardar"
       },
-      "UrlPatterns": {
-        "message": "Direcciones URL",
-        "description": "label for the list of urls"
-      },    
-      "FeatureToggle": {
-        "message": "Feature Toggle",
-        "description": "Feature Toggle"
-      }
+    "UrlPatterns": {
+      "message": "Direcciones URL",
+      "description": "label for the list of urls"
+    },    
+    "FeatureToggle": {
+      "message": "Feature Toggle",
+      "description": "Feature Toggle"
+    },
+    "OptFeatureToggle":{
+      "message": "Feature Toggle para Google Chrome",
+      "description": "Feature Toggle para Google Chrome"
+    },
+    "OptIcons":{
+      "message": "Iconos diseñados por",
+      "description": "Iconos diseñados por"
+    },
+    "OptIconsFrom":{
+      "message": "desde",
+      "description": "desde"
+    },
+    "OptFtExplanation":{
+      "message": "Para una buena explicación de cómo y porqué usar feature toggles puedes visitar",
+      "description": "Para una buena explicación de cómo y porqué usar feature toggles puedes visitar"
+    },
+    "OptFtExplanation2":{
+      "message": "este artículo",
+      "description": "este artículo"
+    },
+    "OptFtExplanation3":{
+      "message": "de Pete Hogson en la web de Martin Fowler.",
+      "description": "de Pete Hogson en la web de Martin Fowler."
+    },
+    "Optsrc":{
+      "message": "El código fuente de esta extensión es abierto y está disponible en",
+      "description": "El código fuente de esta extensión es abierto y está disponible en"
+    },
+    "Optsrc2":{
+      "message": "Siéntete libre de pedir nuevas características, enviar pull requests o incluso mejor, dame feedback.",
+      "description": "Siéntete libre de pedir nuevas características, enviar pull requests o incluso mejor, dame feedback."
+    },
+    "OptTwitter":{
+      "message": "Tengo una cuenta de twitter no demasiado interesante, por si necesitas contactarme: ",
+      "description": "Tengo una cuenta de twitter no demasiado interesante, por si necesitas contactarme: "
+    }
 }
