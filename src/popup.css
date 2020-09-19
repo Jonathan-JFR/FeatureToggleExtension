@@ -6,6 +6,7 @@ form {
     content: url('/images/Ft.png');
     width: 250px;
 }
+
 button {
     box-shadow:inset 0px 1px 0px 0px #caefab;
     background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);

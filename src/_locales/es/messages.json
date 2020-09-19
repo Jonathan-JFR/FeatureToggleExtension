@@ -1,0 +1,18 @@
+{
+    "Activate": {
+      "message": "Activar",
+      "description": "Activación del toggle"
+    },
+    "Save": {
+        "message": "Guardar",
+        "description": "Botón de guardar"
+      },
+      "UrlPatterns": {
+        "message": "Direcciones URL",
+        "description": "label for the list of urls"
+      },    
+      "FeatureToggle": {
+        "message": "Feature Toggle",
+        "description": "Feature Toggle"
+      }
+}
